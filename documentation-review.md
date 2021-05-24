@@ -13,9 +13,9 @@
 We would like you to go through our documentation website at [https://docs.iotex.io](https://docs.iotex.io) from a `User/Developer` perspective and provide a report pointing out errors, inconsistencies, typos, dead links. Also go through the examples and tutorials and try them reporting what is not working, errors, outdated content etc...
 
 ## Acceptance criteria
-- [] Read carefully through every single section and try out all instructions to make sure there is no confusing content.
-- [ ] Report as many issues as possible in your report
-- [ ] If you have any, please report any suggestions about how you would improve the content
+- Read carefully through every single section and try out all instructions to make sure there is no confusing content.
+- Report as many issues as possible in your report
+- If you have any, please report any suggestions about how you would improve the content
 
 ## Milestone 1
 - Provide a report with the list of relevant things to change/improve: for each item provide at least
@@ -30,7 +30,7 @@ The following document(s) encompass a thorough review of IoTeX's devloper docume
 - Docs source: [github: iotex-docs](https://github.com/iotexproject/iotex-docs)
 - Onboarding site: [https://onboard.iotex.io/](https://onboard.iotex.io/)
 
-Tools Used:
+Tools used by the project:
 - [Vuepress](https://vuepress.vuejs.org/config/)
 - [GitBook](https://docs.gitbook.com/)
 - [Github workflows](https://github.com/iotexproject/iotex-docs/blob/master/.github/workflows/deploy.yml)
@@ -74,5 +74,7 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 
 ## Page Findings
 
-### Getting Started
+@todo - check repo mappings (iotex -> review links)
+
+### [`/software-tools/`]()
 - [Getting Started (Software Tools)](./pages/software-tools/getting-started.md)
