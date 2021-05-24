@@ -1,13 +1,12 @@
 # IoTeX Documentation Bounty
 
-| Customer        | Source           |
-| :-------------: | :-------------:  | 
-| @simonerom      | [Review And Improve IoTeX Docs](https://gitcoin.co/issue/iotexproject/halogrants/32/100025753) |
-
-
 | Author          | Date           | Version  |
 | :-------------: | :------------: | :------: |
-| @mwood77        |  24 May, 2021  |  0.0.1   |
+| [@mwood77](https://github.com/mwood77) |  24 May, 2021  |  0.0.1   |
+
+| Customer        | Source           |
+| :-------------: | :-------------:  | 
+| [@simonerom](https://github.com/simonerom) | [Review And Improve IoTeX Docs](https://gitcoin.co/issue/iotexproject/halogrants/32/100025753) |
 
 
 # Project Brief
