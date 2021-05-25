@@ -76,5 +76,9 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 
 @todo - check repo mappings (iotex -> review links)
 
+### `landing page`(https://docs.iotex.io/)
+- [Landing Page (Index)](./pages/index.md)
+
 ### [`/software-tools/`]()
 - [Getting Started (Software Tools)](./pages/software-tools/getting-started.md)
+- [Install iocl cli](./pages/software-tools/getting-started.md)
