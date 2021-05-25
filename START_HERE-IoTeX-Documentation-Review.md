@@ -42,7 +42,7 @@ The reviewer has followed a top-down approach. That means that the pages are rev
 I am a full time software engineer, working in the finance industry. Primarily working in microservice, cloud, and event based backend development. Primary develoment languages are Java and TypeScript.
 
 ## Method
-Each page was observed for the following issues:
+Each page was observed for the categories beneath. Additionally, all code examples were tried on a fresh macOS virtual machine.
 1. **Textual**
     - Issues that include grammatical errors, typos, confusing sentences, general written content feedback, etc
 1. **Media**
@@ -70,15 +70,32 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 ## General Findings
 1. Lack of Versioning
     - The documentation does not appear to be versioned or tagged in the repository. This would add significant value, internally and externally, as it would tightly couple your documentation to your code. A fantastic example of this is [Google's Angular documentation](https://angular.io/docs), which not only is tied to release candidates, but also signifacntly changes the site's styling depending if the version selected is current, past, or a future RC.
-1. 
+1. Accessibility
+    - Attention to accessibility features must be increased. There are a lack of accessibility-first styling choices that can easily be rectified.
+    - This includes:
+        - Submenu headings are not keyboard focusable
+        - Submenu text colour change - contrast is very low.
+            - Google's Material library has excellent documentation and tools to assist in building highly legible/accesible colour palletes
+            - [Colour and Accessibilty tool](https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=6002ee)
+            - [General colour advise](https://material.io/design/color/the-color-system.html#color-theme-creation)
+        ![0001-accessibility-contrast](images/0001-accessibility-text.png) 
+        
+
 
 ## Page Findings
 
 @todo - check repo mappings (iotex -> review links)
 
 ### `landing page`(https://docs.iotex.io/)
-- [Landing Page (Index)](./pages/index.md)
+- [Landing Page (Index)](./pages/1000-index.md)
 
 ### [`/software-tools/`]()
-- [Getting Started (Software Tools)](./pages/software-tools/getting-started.md)
-- [Install iocl cli](./pages/software-tools/getting-started.md)
+- [Getting Started (Software Tools)](./pages/software-tools/2000-getting-started.md)
+- [Install iocl cli](./pages/software-tools/3000-getting-started.md)
+- [Create an IoTeX account](./pages/software-tools/4000-create-an-iotex-account.md)
+- [Install a local Testnet](./pages/software-tools/5000-install-a-local-testnet.md)
+- [Interact with the blockchain](./pages/software-tools/6000-interact-with-the-blockchain.md)
+
+### [`/smart-contracts/`]()
+- [Introduction](./pages/smart-contracts/7000-introduction.md)
+- [Issue XRC20 Tokens on IoTeX](./pages/smart-contracts/8000-issue-xrc20-tokens-on-iotex.md)
