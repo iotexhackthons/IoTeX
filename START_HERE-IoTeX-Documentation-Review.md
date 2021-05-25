@@ -86,16 +86,16 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 
 @todo - check repo mappings (iotex -> review links)
 
-### `landing page`(https://docs.iotex.io/)
+### `landing page`
 - [Landing Page (Index)](./pages/1000-index.md)
 
-### [`/software-tools/`]()
+### `/software-tools/`
 - [Getting Started (Software Tools)](./pages/software-tools/2000-getting-started.md)
-- [Install iocl cli](./pages/software-tools/3000-getting-started.md)
+- [Install iocl cli](./pages/software-tools/3000-install-ioctl-cli.md)
 - [Create an IoTeX account](./pages/software-tools/4000-create-an-iotex-account.md)
 - [Install a local Testnet](./pages/software-tools/5000-install-a-local-testnet.md)
 - [Interact with the blockchain](./pages/software-tools/6000-interact-with-the-blockchain.md)
 
-### [`/smart-contracts/`]()
+### `/smart-contracts/`
 - [Introduction](./pages/smart-contracts/7000-introduction.md)
 - [Issue XRC20 Tokens on IoTeX](./pages/smart-contracts/8000-issue-xrc20-tokens-on-iotex.md)
