@@ -84,8 +84,6 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 
 ### Page Findings
 
-@todo - check repo mappings (iotex -> review links)
-
 #### `landing Page & Uncategorized`
 - [Landing Page (Index)](./pages/1000-index.md)
 - [IoTex dApp Starter](./pages/19000-iotex-dapp-starter.md)
@@ -122,3 +120,12 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 #### `Decentralized Identity`
 - [Overview](./pages/decentralized-identity/24000-overview.md)
 - [Self-Managed Contract Interface](./pages/decentralized-identity/25000-self-managed-contract-interface.md)
+- [Create/Register a IoTeX DID](./pages/decentralized-identity/26000-create-register-a-iotex-did.md)
+- [Query a IoTeX DID](./pages/decentralized-identity/27000-query-a-iotex-did.md)
+- [Update a IoTeX DID](./pages/decentralized-identity/28000-update-a-iotex-did.md)
+- [Delete a IoTeX DID](./pages/decentralized-identity/29000-delete-a-iotex-did.md)
+- [Resolve a IoTeX DID Document](./pages/decentralized-identity/30000-resolve-a-iotex-did-document.md)
+- [Security Considerations](./pages/decentralized-identity/31000-security-considerations.md)
+
+#### `Pebble Tracker`
+- [Quick Start](./pages/decentralized-identity/)
