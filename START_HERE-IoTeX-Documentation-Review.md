@@ -86,22 +86,23 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 
 @todo - check repo mappings (iotex -> review links)
 
-#### `landing page`
+#### `landing Page & Uncategorized`
 - [Landing Page (Index)](./pages/1000-index.md)
+- [IoTex dApp Starter](./pages/19000-iotex-dapp-starter.md)
 
-#### `/software-tools/`
+#### `Get Started`
 - [Getting Started (Software Tools)](./pages/software-tools/2000-getting-started.md)
 - [Install iocl cli](./pages/software-tools/3000-install-ioctl-cli.md)
 - [Create an IoTeX account](./pages/software-tools/4000-create-an-iotex-account.md)
 - [Install a local Testnet](./pages/software-tools/5000-install-a-local-testnet.md)
 - [Interact with the blockchain](./pages/software-tools/6000-interact-with-the-blockchain.md)
 
-#### `/smart-contracts/`
+#### `Smart Contracts`
 - [Introduction](./pages/smart-contracts/7000-introduction.md)
 - [Issue XRC20 Tokens on IoTeX](./pages/smart-contracts/8000-issue-xrc20-tokens-on-iotex.md)
 - [Token Metadata](./pages/smart-contracts/9000-token-metadata.md)
 
-#### `/iotex-antenna-sdk/`
+#### `Iotex-antenna SDK`
 - [Overview](./pages/iotex-antenna-sdk/10000-overview.md)
 - [Antenna JS](./pages/iotex-antenna-sdk/11000-antenna-js.md)
 - [Antenna Go](./pages/iotex-antenna-sdk/12000-antenna-go.md)
@@ -109,3 +110,15 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 - [Antenna Embedded](./pages/iotex-antenna-sdk/14000-antenna-embedded.md)
 - [Create an Account](./pages/iotex-antenna-sdk/15000-create-an-account.md)
 - [Make Token Transfers](./pages/iotex-antenna-sdk/16000-make-token-transfers.md)
+- [Interact With Smart Contracts](./pages/iotex-antenna-sdk/17000-interact-with-smart-contracts.md)
+- [Examples](./pages/iotex-antenna-sdk/18000-examples.md)
+
+#### `Ethereum Tools`
+- [Ethereum Tools](./pages/ethereum-tools/20000-ethereum-tools.md)
+- [Metamask](./pages/ethereum-tools/21000-metamask.md)
+- [Web3.js](./pages/ethereum-tools/22000-web3js.md)
+- [Remix](./pages/ethereum-tools/23000-remix.md)
+
+#### `Decentralized Identity`
+- [Overview](./pages/decentralized-identity/24000-overview.md)
+- [Self-Managed Contract Interface](./pages/decentralized-identity/25000-self-managed-contract-interface.md)
