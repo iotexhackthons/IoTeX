@@ -1,5 +1,5 @@
 
-## Decentralized Identity
+## JWT Tokens
 | Page        | Link           |
 | :-------------: | :-------------:  | 
 | JWT Tokens | https://docs.iotex.io/reference/ioctl-cli-reference/jwt-tokens |

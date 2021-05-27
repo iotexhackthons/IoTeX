@@ -1,7 +1,7 @@
 ## Resolve a IoTeX DID Document
 | Page        | Link           |
 | :-------------: | :-------------:  | 
-| Delete a IoTeX DID | https://docs.iotex.io/middleware-1/decentralized-identity/delete-a-iotex-did |
+| Resolve a IoTeX DID | https://docs.iotex.io/middleware-1/decentralized-identity/resolve-a-iotex-did-document |
 
 
 ## Issues
