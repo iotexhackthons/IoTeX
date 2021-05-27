@@ -8,4 +8,4 @@
 ## Issues
 | #   | Fault Category | Reviewer Comments | Evidence |
 | :--: | :--: | :--: | :--: |
-| 14001 | Textual/Hyperlink |  hyperlink: "**the latest release**" points to a github repository that has no releases. | https://github.com/iotexproject/iotex-antenna-embedded/releases |
+| 14001 | Hyperlink |  hyperlink: "**the latest release**" points to a github repository that has no releases. | https://github.com/iotexproject/iotex-antenna-embedded/releases |

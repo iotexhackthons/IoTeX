@@ -1,4 +1,4 @@
-## Hardware Setup
+## Deploy the backend service
 | Page        | Link           |
 | :-------------: | :-------------:  | 
 | Deploy the backend service | https://docs.iotex.io/secure-hardware/pebble-tracker/setup-modes/development-mode/deploy-the-backend-service|

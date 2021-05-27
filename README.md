@@ -36,7 +36,7 @@ Tools used by the project:
 - ~~[Github workflows](https://github.com/iotexproject/iotex-docs/blob/master/.github/workflows/deploy.yml)~~
 
 The reviewer has followed a top-down approach. That means that the pages are reviewed in the order in which they are displayed on the website's Table of Contents (red outline):
-    - ![index page showing ToC](./images/index.jpg)
+    ![index page showing ToC](./images/index.jpg)
 
 ### Reviewer Background
 I am a full time software engineer, working in the finance industry. Primarily working in microservice, cloud, and event based backend development. Primary develoment languages are Java and TypeScript.

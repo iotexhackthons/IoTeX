@@ -1,7 +1,7 @@
 ## Send data to the backend
 | Page        | Link           |
 | :-------------: | :-------------:  | 
-| Deploy the backend service | https://docs.iotex.io/secure-hardware/pebble-tracker/setup-modes/development-mode/send-data-to-the-backend|
+| Send data to the backend | https://docs.iotex.io/secure-hardware/pebble-tracker/setup-modes/development-mode/send-data-to-the-backend|
 
 
 ## Issues

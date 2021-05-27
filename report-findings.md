@@ -14,7 +14,7 @@
 ## Summary Findings
 | Textual Findings  | Media Findings   | Hyperlink Findings  | Example Findings  |  Other  |
 | :-------------: | :------------: | :------: |   :------: |  :------: |
-| 0               |  0             |  0       |    0       |   0       |
+| 90              |  10            |  72      |    6       |   0       |
 
 # Reviewer Recommendations
 
@@ -32,9 +32,9 @@
             - [Colour and Accessibilty tool](https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=6002ee)
             - [General colour advise](https://material.io/design/color/the-color-system.html#color-theme-creation)
         ![0001-accessibility-contrast](images/0001-accessibility-text.png) 
-1. Lack of community engagement. Community engagement is an important part of customer-buyin. Allowing users to edit your documentation, in a controlled manner, would add significant community buy-in. This would also reduce the overall time spent by the development/IoTeX team reviewing their documentation.
+1. Lack of community engagement. Community engagement is an important part of community buy-in. Allowing users to edit your documentation, in a controlled manner, would add significant community buy-in. This would also reduce the overall time spent by the development/IoTeX team reviewing their own documentation.
 1. **Stretch Goal** - The reviewer recommends migrating to a different platform to handle documentation. One that specifically offers versioning, opensource contribution, and is highly customizable.
-    - Core recommendation: [Docusaurus](https://docusaurus.io/)
+    - Recommendation: [Docusaurus](https://docusaurus.io/)
         - Allows for community contributions (documentation can be forked, edited, and PRs raised to migrate into main / published docs)
         - Accessibility focused
         - Incorporates document versioning
