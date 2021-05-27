@@ -89,6 +89,7 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 - [IoTex dApp Starter](./pages/19000-iotex-dapp-starter.md)
 - [Babel - Web3 API](./pages/40000-babel-web3-api.md)
 - [Analytics GraphQL API](./pages/41000-analytics-graphql-api.md)
+- [Action Injector](./pages/49000-action-injector.md)
 
 #### `Get Started`
 - [Getting Started (Software Tools)](./pages/software-tools/2000-getting-started.md)
@@ -147,3 +148,10 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 
 #### `Clone Existing Projects`
 - [Rolling Dice](./pages/clone-existing-projects/46000-rolling-dice.md)
+
+#### `Exchange Integration`
+- [General Guide](./pages/exchange-integration/47000-general-guide.md)
+- [Rosetta API](./pages/exchange-integration/48000-rosetta-api.md)
+
+#### `Rewards Distribution`
+- [Analytics Bookkeeping](./pages/rewards-distribution/50000-analytics-bookkeeping.md)
