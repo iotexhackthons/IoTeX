@@ -2,87 +2,49 @@
 
 | Author          | Date           | Version  |
 | :-------------: | :------------: | :------: |
-| [@mwood77](https://github.com/mwood77) |  24 May, 2021  |  0.0.1   |
+| [@mwood77](https://github.com/mwood77) |  27 May, 2021  |  1.0.0   |
 
 | Customer        | Source           |
 | :-------------: | :-------------:  | 
 | [@simonerom](https://github.com/simonerom) | [Review And Improve IoTeX Docs](https://gitcoin.co/issue/iotexproject/halogrants/32/100025753) |
 
-
-# Project Brief
-We would like you to go through our documentation website at [https://docs.iotex.io](https://docs.iotex.io) from a `User/Developer` perspective and provide a report pointing out errors, inconsistencies, typos, dead links. Also go through the examples and tutorials and try them reporting what is not working, errors, outdated content etc...
-
-### Acceptance criteria
-- Read carefully through every single section and try out all instructions to make sure there is no confusing content.
-- Report as many issues as possible in your report
-- If you have any, please report any suggestions about how you would improve the content
-
-### Milestone 1
-- Provide a report with the list of relevant things to change/improve: for each item provide at least
-    - a screenshot of the relevant doc section
-    - the actual link to get there
-    - your notes about what's wrong/how to improve
-
-# The Process
-### Introduction
-The following document(s) encompass a thorough review of IoTeX's devloper documentation. These resources are available at the following, and valid as of the date mentioned in this project's [header](#iotex-documentation-bounty):
-- Published site: [https://docs.iotex.io/](https://docs.iotex.io/)
-- Docs source: [github: iotex-docs](https://github.com/iotexproject/iotex-docs)
-- Onboarding site: [https://onboard.iotex.io/](https://onboard.iotex.io/)
-
-Tools used by the project:
-- [Vuepress](https://vuepress.vuejs.org/config/)
-- [GitBook](https://docs.gitbook.com/)
-- [Github workflows](https://github.com/iotexproject/iotex-docs/blob/master/.github/workflows/deploy.yml)
-
-The reviewer has followed a top-down approach. That means that the pages are reviewed in the order in which they are displayed on the website's Table of Contents (red outline):
-    - ![index page showing ToC](./images/index.jpg)
-
-### Reviewer Background
-I am a full time software engineer, working in the finance industry. Primarily working in microservice, cloud, and event based backend development. Primary develoment languages are Java and TypeScript.
-
-### Method
-Each page was observed for the categories beneath. Additionally, all code examples were tried on a fresh macOS virtual machine.
-1. **Textual**
-    - Issues that include grammatical errors, typos, confusing sentences, general written content feedback, etc
-1. **Media**
-    - Issues to do with images and videos (not hyperlinked).
-1. **Hyperlink**
-    - Issues to do with broken links, out of date links, unlinked pages, etc.
-1. **Examples**
-    - Issues to do with code blocks, example applications, etc.
-1. **Other**
-    -  Anything that does not fall within the above categories.
-
-In the [Report Findings](#report-findings) section, you'll find pages which contain a table of relevant issues. If a page is omitted in the Report Findings section, you may assume that the reviewer could not find a fault in it.
-
 # Report Findings
-> @todo - ⚠️ the review is still ongoing. 
+> If a page is omitted in the Report Findings section, you may assume that the reviewer could not find a fault in it.
 
-### Summary Findings
+## Summary Findings
 | Textual Findings  | Media Findings   | Hyperlink Findings  | Example Findings  |  Other  |
 | :-------------: | :------------: | :------: |   :------: |  :------: |
 | 0               |  0             |  0       |    0       |   0       |
 
-#### Reviewer Recommendations
-> @todo - ⚠️ the review is still ongoing, therefore no recommendations yet
+# Reviewer Recommendations
 
-### General Findings
+## General Findings
 1. Lack of Versioning
-    - The documentation does not appear to be versioned or tagged in the repository. This would add significant value, internally and externally, as it would tightly couple your documentation to your code. A fantastic example of this is [Google's Angular documentation](https://angular.io/docs), which not only is tied to release candidates, but also signifacntly changes the site's styling depending if the version selected is current, past, or a future RC.
+    - The documentation does not appear to be versioned. This would add significant value, internally and externally, as it would tightly couple your documentation to your code. A fantastic example of this is [Google's Angular documentation](https://angular.io/docs), which not only is tied to release candidates, but also signifacntly changes the site's styling depending if the version selected is current, past, or a future RC.
+    - This would also facilitate language translations, and the managing thereof.
 1. Accessibility
     - Attention to accessibility features must be increased. There are a lack of accessibility-first styling choices that can easily be rectified.
     - This includes:
+        - A majority of images do not contain sub-headings or alternative text
         - Submenu headings are not keyboard focusable
         - Submenu text colour change - contrast is very low.
             - Google's Material library has excellent documentation and tools to assist in building highly legible/accesible colour palletes
             - [Colour and Accessibilty tool](https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=6002ee)
             - [General colour advise](https://material.io/design/color/the-color-system.html#color-theme-creation)
         ![0001-accessibility-contrast](images/0001-accessibility-text.png) 
-        
+1. Lack of community engagement. Community engagement is an important part of customer-buyin. Allowing users to edit your documentation, in a controlled manner, would add significant community buy-in. This would also reduce the overall time spent by the development/IoTeX team reviewing their documentation.
+1. **Stretch Goal** - The reviewer recommends migrating to a different platform to handle documentation. One that specifically offers versioning, opensource contribution, and is highly customizable.
+    - Core recommendation: [Docusaurus](https://docusaurus.io/)
+        - Allows for community contributions (documentation can be forked, edited, and PRs raised to migrate into main / published docs)
+        - Accessibility focused
+        - Incorporates document versioning
+        - Allows for out-of-the-box translations (community driven)
+        - Uses Markdown formatting, which should enable a re-use of existing documentation
+        - Built on React, which IoTeX teammembers appear to be familiar with
+        - Highly customizable
 
 
-### Page Findings
+# Page Findings
 
 #### `landing Page & Uncategorized`
 - [Landing Page (Index)](./pages/1000-index.md)
@@ -90,6 +52,8 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 - [Babel - Web3 API](./pages/40000-babel-web3-api.md)
 - [Analytics GraphQL API](./pages/41000-analytics-graphql-api.md)
 - [Action Injector](./pages/49000-action-injector.md)
+- [Blockchain Nodes](./pages/52000-blockchain-nodes.md)
+- [Accounts Cryptography](./pages/53000-accounts-cryptography.md)
 
 #### `Get Started`
 - [Getting Started (Software Tools)](./pages/software-tools/2000-getting-started.md)
@@ -155,3 +119,6 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 
 #### `Rewards Distribution`
 - [Analytics Bookkeeping](./pages/rewards-distribution/50000-analytics-bookkeeping.md)
+
+#### `Accounts`
+- [Owned Accounts](./pages/accounts/51000-owned-accounts.md)
