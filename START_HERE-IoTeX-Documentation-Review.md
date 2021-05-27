@@ -87,6 +87,8 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 #### `landing Page & Uncategorized`
 - [Landing Page (Index)](./pages/1000-index.md)
 - [IoTex dApp Starter](./pages/19000-iotex-dapp-starter.md)
+- [Babel - Web3 API](./pages/40000-babel-web3-api.md)
+- [Analytics GraphQL API](./pages/41000-analytics-graphql-api.md)
 
 #### `Get Started`
 - [Getting Started (Software Tools)](./pages/software-tools/2000-getting-started.md)
@@ -128,4 +130,20 @@ In the [Report Findings](#report-findings) section, you'll find pages which cont
 - [Security Considerations](./pages/decentralized-identity/31000-security-considerations.md)
 
 #### `Pebble Tracker`
-- [Quick Start](./pages/decentralized-identity/)
+- [Quick Start](./pages/pebble-tracker/32000-quick-start.md)
+- [Technical Specification](./pages/pebble-tracker/33000-technical-specification.md)
+- [Hardware Setup](./pages/pebble-tracker/34000-hardware-setup.md)
+- [Deploy the backend service](./pages/pebble-tracker/35000-deploy-the-backend-service.md)
+- [Send data to the backend](./pages/pebble-tracker/36000-send-data-to-the-backend.md)
+- [Build on Windows](./pages/pebble-tracker/37000-build-on-windows.md)
+- [Build on Linux/macOS](./pages/pebble-tracker/38000-build-on-linux-macos.md)
+- [Configure the firmware](./pages/pebble-tracker/39000-configure-the-firmware.md)
+
+#### `ioctl cli - Reference`
+- [HD Wallet Account](./pages/ioctl-cli-reference/42000-hd-wallet-account.md)
+- [Smart Contracts](./pages/ioctl-cli-reference/43000-smart-contracts.md)
+- [Decentralized Identity](./pages/ioctl-cli-reference/44000-decentralized-identity.md)
+- [JWT Tokens](./pages/ioctl-cli-reference/45000-jwt-tokens.md)
+
+#### `Clone Existing Projects`
+- [Rolling Dice](./pages/clone-existing-projects/46000-rolling-dice.md)
